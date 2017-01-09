@@ -1,0 +1,75 @@
+/* Dec. 2005 For Use with Geogebra Applet Pages */
+body { margin:0; background:white; height:100%; font-family: verdana, arial, helvetica, sans-serif; color: black; background-color: #e6e6e6;}
+
+/* Top of page banner */
+#Top { margin:5px; margin-bottom:1em; font-size:200%; background:#000066; font-weight: bold; color:white; padding:6px; height:25px; line-height:20px; text-shadow: 0.2em 0.4em 0.2em #999999;}
+#Top p {font-size: .7em}
+
+/* Left Content*/
+#left-content {
+	position: absolute;
+	top: 65px;
+	bottom: 40px;
+	left: 12px;
+	overflow: auto;
+	width: 240px;
+	height: 804px;
+}
+#left-content p {font-size: .7em; margin:.1em }
+
+#right-content {position: absolute; top:65px; bottom:40px; margin-left:250px; margin-right: 10px; }
+
+
+h2 {margin-top: 0; margin-bottom: 15px; margin-left: 0; margin-right: 0; padding: 0;font-size: 1em;color: #3366ff;font-weight: bold;font-style: oblique;}
+p,ul,ol {margin-top: 0; margin-bottom: 1.5em; margin-left: 0; margin-right: 0; font-size: .7em; line-height: 1.3em;}
+ol,ul {margin-left: 5px;}
+
+/* Footer */
+#footer { background-color:#eee; position:absolute; bottom:0; margin:0; width:98%; border-top:1px solid #999; height:40px; line-height:19px }
+#footer p {margin:0 1em; font-size: .7em; font-style:italic }
+
+#icons {
+		margin: 5;
+		padding: 0;
+}
+#icons li {
+		margin: 10px;
+		position: relative;
+		padding: 5px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+}
+#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+}
+#windButton {
+        font: 50.0% "Trebuchet MS", sans-serif;
+        width: 150px;
+		margin: 0px;
+}
+.slider {
+		float: left;
+		clear: left;
+		width: 150px;
+		margin: 0px;
+}
+.sliderTitle {
+        font: 60.0% "Trebuchet MS", sans-serif;
+        width: 150px;
+		margin: 0px;
+		background-color:transparent;
+}
+.sliderNumber {
+        border:0;
+		width:50;
+		background-color:transparent; 
+		color:#f6931f; 
+		font-weight:bold;
+}
+.radioTitle {
+        font: 50.0% "Trebuchet MS", sans-serif;
+        width: 150px;
+		margin: 0px;
+}
